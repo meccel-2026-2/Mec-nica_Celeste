@@ -33,17 +33,25 @@ Interpretación breve: Ritmo aceptable con evidencia de trabajo distribuido; se 
 
 ### Aspectos positivos
 
-- Se evidencia el objetivo central del proyecto (trayectoria de Apophis, contexto de 2029 y estimación de acercamiento a la Tierra).
-- Se usan al menos dos estrategias de análisis, lo cual va en la direccion correcta del curso.
+- Sabe consultar la posición de cuerpos usando consulta_horizons. 
 
 ### Aspectos por mejorar
 
+- Dividir el informe en secciones usando títulos y poniendo una introducción en cada sección.
+- La explicación previa al código es parcial; conviene anteceder cada bloque importante con una celda de texto breve.
+- El notebook tiene warnings: C:\Users\ASUS\AppData\Local\Temp\ipykernel_3436\4024442103.py:26: RuntimeWarning: invalid value encountered in arccos
+  f_p_tierra = np.arccos(np.sum(e_vec_tierra * r_relativo_tierra, axis=1) / (e_tierra * distancia_tierra)) #Anomalía verdadera
+  Debes revisar por qué están esos warnings y corregir.
 - Se recomienda ampliar la comparación entre enfoques para fortalecer la validación de resultados.
 - Falta fortalecer la parte de análisis y reflexión; no basta con mostrar resultados sin interpretarlos.
-- La explicación previa al código es parcial; conviene anteceder cada bloque importante con una celda de texto breve.
 - Se observa código extenso en varios puntos; conviene reducir repetición y encapsular rutinas.
+- No veo ningún cálculo con integración de N-cuerpos. Además hay mucho tema en el problema de los N-cuerpos que se podría haber aplicado en el proyecto.
+- No aparece la fecha, ni la distancia a la que se aproximara.
+- No hay ninguna aplicación de la teoría del problema de los dos cuerpos.
+- No hay ninguna aplicación de la teoría del problema de los tres cuerpos.
 
 ### Valoración global
 
 - El trabajo tiene avances técnicos, pero necesita mejoras de fondo en comunicación de resultados y/o cumplimiento explícito del objetivo.
-- Estado de recepción: requiere cambios antes de recepción final.
+- El trabajo es completamente inaceptable como está. Practicamente hay que hacerlo otra vez.
+- No cumple con los objetivos de aplicar exhaustivamente la teoría del curso más allá de consultar la posición del asteroide.
